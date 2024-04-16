@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Sora", "sans-serif"],
+            },
+            colors: {
+              primary: "#18181B",
+              secondary: "#52525A",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Document</title>
+  </head>
+  <body class="font-sans bg-[#FAFAF9]">
+    <div class="max-w-[1136px] mx-auto px-10">
+      <div class="my-[162px] flex flex-col sm:flex-row gap-10">
+        <div>
+          <div
+            class="bg-[#F5C044] w-12 h-12 rounded-full flex items-center justify-center text-2xl mb-4"
+          >
+            ⭐️
+          </div>
+          <div class="">
+            <h1 class="text-3xl text-primary font-semibold mb-3">
+              Reviewers
+            </h1>
+            <p class="text-[20px] text-secondary mb-8 max-w-[550px]">
+              Reviewers is where people can access guidelines, checklists, and other tools to assist them in reviewing papers or manuscripts. It provides a structured approach to ensure that the review process is thorough, efficient, and consistent.
+            </p>
+            <div class="text-secondary flex flex-col space-y-3 text-sm">
+              <div class="flex items-center space-x-2">
+                <img src="./Done_ring_round_fill.svg" alt="Done_ring_round_fill">
+                <p>Checklist to Review an Academic Paper</p>
+              </div>
+              <div class="flex items-center space-x-2">
+                <img src="./Done_ring_round_fill.svg" alt="Done_ring_round_fill">
+                <p>Peer Review Checklist</p>
+              </div>
+              <div class="flex items-center space-x-2">
+                <img src="./Done_ring_round_fill.svg" alt="Done_ring_round_fill">
+                <p>Checklist for Editors, Reviewers, and Authors of SPIE Journals</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col space-y-8 flex-1">
+          <div class="inline-flex items-end justify-end flex-1">
+            <div class="bg-white rounded-xl px-10 py-7 drop-shadow-2xl">
+              <div class="flex items-center gap-5 mb-4">
+                <img src="./google-testimonial.png" alt="google-testimonial" class="w-[86px]">
+                <div class="flex items-center space-x-1">
+                  <img src="./Star_fill.svg" alt="">
+                  <img src="./Star_fill.svg" alt="">
+                  <img src="./Star_fill.svg" alt="">
+                  <img src="./Star_fill.svg" alt="">
+                  <img src="./Star_fill_gray.svg" alt="">
+                </div>
+              </div>
+              <h3 class="font-medium text-primary mb-2">Samantha Lee</h3>
+              <p class="text-secondary max-w-[280px]">
+                The checklist ensures that the review process is thorough
+              </p>
+            </div>
+          </div>
+          <div class="inline-flex items-start justify-start flex-1">
+            <div class="bg-white rounded-xl px-10 py-7 drop-shadow-2xl ">
+            <div class="flex items-center gap-5 mb-4">
+              <img src="./meta-testimonial.png" alt="google-testimonial" class="w-[86px]">
+              <div class="flex items-center space-x-1">
+                <img src="./Star_fill.svg" alt="">
+                <img src="./Star_fill.svg" alt="">
+                <img src="./Star_fill.svg" alt="">
+                <img src="./Star_fill.svg" alt="">
+                <img src="./Star_fill.svg" alt="">
+              </div>
+            </div>
+            <h3 class="font-medium text-primary mb-2">Rachel Patel</h3>
+            <p class="text-secondary max-w-[280px]">
+              I highly recommend the Writecream Business Description
+            </p>
+          </div>
+        </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
